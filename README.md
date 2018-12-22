@@ -15,3 +15,9 @@ Learn to create complete Firebase authentication system with Angular7 using Angu
 
 
 **If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks for your support in advance** :pray:
+
+
+## Installation Process
+Run npm install to install all the required dependencies
+
+Then run ng serve to start a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
