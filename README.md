@@ -15,7 +15,7 @@ Learn to create complete Firebase authentication system with Angular7 using Angu
 
 
 
-**If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks for your support in advance** :pray:
+**If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks** :pray:
 
 
 
