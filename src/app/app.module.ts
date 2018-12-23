@@ -11,7 +11,7 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
-import { VerifyEmailMessageComponent } from './components/verify-email-message/verify-email-message.component';
+import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 
 
 // Firebase services + enviorment module
@@ -31,7 +31,7 @@ import { AuthService } from "./shared/services/auth.service";
     SignUpComponent,
     DashboardComponent,
     ForgotPasswordComponent,
-    VerifyEmailMessageComponent
+    VerifyEmailComponent
   ],
   imports: [
     BrowserModule,
