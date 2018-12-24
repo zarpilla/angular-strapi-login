@@ -35,17 +35,21 @@ h6 {
   font-weight: 300;
   margin-bottom: 20px;
 }
+
 .media-body h1 strong {
   font-weight: 600;
 }
+
 .media-body p {
   margin-bottom: 10px;
   font-weight: 300;
 }
+
 .media-body p strong {
   margin-bottom: 10px;
   font-weight: 600;
 }
+
 .px-logo {
   display: block;
   clear: both;
@@ -128,7 +132,7 @@ input:-ms-input-placeholder {
 }
 
 input:-moz-placeholder {
-  color: #BBBBBB;
+  color: #BBBBBB
 }
 
 .displayTable .btn {
@@ -230,7 +234,6 @@ input:-moz-placeholder {
   text-decoration: underline;
 }
 
-
 /* * Sidebar */
 .sidebar {
   position: fixed;
@@ -288,7 +291,6 @@ a:not([href]):not([tabindex]):hover {
   color: #007bff;
   background: #efefef;
 }
-
 
 /* * Content */
 [role="main"] {
@@ -373,7 +375,6 @@ i {
   box-shadow: none;
 }
 
-
 /* Pagination */
 body pagination-template {
   padding: 0;
@@ -395,7 +396,6 @@ body .ngx-pagination .current {
 .ngx-pagination button:hover {
   text-decoration: none;
 }
-
 
 /* Error */
 .error {
@@ -442,7 +442,6 @@ label {
 .form-control {
   padding: 1.375rem .75rem;
 }
-
 
 /* Misc */
 .no-data img {
@@ -660,6 +659,7 @@ body .table thead th {
   .authBlock {
     box-shadow: none
   }
+
   .px-logo {
     display: none;
   }

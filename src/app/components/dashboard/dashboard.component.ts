@@ -18,10 +18,4 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() { }
 
-  logOut() {
-    this.authService.SignOut().then(() => {
-      this.router.navigate(['sign-in'])
-    })
-  }
-
 }

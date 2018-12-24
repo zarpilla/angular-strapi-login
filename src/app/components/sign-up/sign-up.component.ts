@@ -15,8 +15,4 @@ export class SignUpComponent implements OnInit {
 
   ngOnInit() { }
 
-  registerUser(userEmail, userPwd) {
-    this.authService.SignUp(userEmail.value, userPwd.value)
-  }
-
 }
