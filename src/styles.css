@@ -65,7 +65,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100%;
-  background: #0069ff;
+  background: #3F51B5;
 }
 
 .displayTableCell {
@@ -288,7 +288,7 @@ input:-moz-placeholder {
 .sidebar a:hover,
 a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
-  color: #007bff;
+  color: #E91E63;
   background: #efefef;
 }
 
@@ -341,7 +341,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .bg-dark {
-  background-color: #1633FF !important;
+  background-color: #3F51B5 !important;
 }
 
 .gap-right {
