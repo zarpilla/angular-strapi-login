@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 // Reactive Form
 import { ReactiveFormsModule } from "@angular/forms";
@@ -15,15 +16,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 
-// Firebase services + enviorment module
-import { AngularFireModule } from "@angular/fire";
-import { AngularFireAuthModule } from "@angular/fire/auth";
-import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { environment } from '../environments/environment';
-
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
-
+import { UsersService } from "./shared/services/users.service";
 
 @NgModule({
   declarations: [
@@ -36,13 +31,11 @@ import { AuthService } from "./shared/services/auth.service";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAuthModule,
-    AngularFirestoreModule,
-    ReactiveFormsModule
+    AppRoutingModule,    
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [AuthService],
+  providers: [AuthService, UsersService],
   bootstrap: [AppComponent]
 })
 

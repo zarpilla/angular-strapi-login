@@ -1,5 +1,5 @@
 {
-  "name": "angularfirebase-authentication",
+  "name": "bdt",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,14 +15,12 @@
     "@angular/common": "~8.2.13",
     "@angular/compiler": "~8.2.13",
     "@angular/core": "~8.2.13",
-    "@angular/fire": "^5.1.1",
     "@angular/forms": "~8.2.13",
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
     "bootstrap": "^4.1.3",
     "core-js": "^2.5.4",
-    "firebase": "^5.7.0",
     "rxjs": "~6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

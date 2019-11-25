@@ -20,7 +20,7 @@
           </li>
           <!-- Calling SignOut() Api from AuthService -->
           <li class="nav-item">
-            <a class="nav-link" (click)="authService.SignOut()">
+            <a class="nav-link" (click)="authService.logout()">
               <i class="fas fa-sign-out-alt"></i>Log out
             </a>
           </li>
@@ -35,21 +35,23 @@
         <div class="pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">User Profile</h1>
         </div>
-        <!-- Show user data when logged in -->
+        <!-- Show user data when logged in -->        
         <div class="row" *ngIf="authService.userData as user">
           <div class="col-md-12">
             <div class="media">
               <img class="align-self-start mr-5 img-thumbnail rounded-circle" src="{{(user.photoURL) ? user.photoURL : '/assets/dummy-user.png'}}"
                 alt="{{user.displayName}}">
               <div class="media-body">
-                <h1>Hello: <strong>{{(user.displayName) ? user.displayName : 'User'}}</strong></h1>
-                <p>User ID: <strong>{{user.uid}}</strong></p>
+                <h1>Hello: <strong>{{(user.fullname) ? user.fullname : 'User'}}</strong></h1>
+                <p>User ID: <strong>{{user.id}}</strong></p>
                 <p>Email: <strong>{{user.email}}</strong></p>
-                <p>Email Verified: <strong>{{user.emailVerified}}</strong></p>
+                <p>Email Verified: <strong>{{user.confirmed}}</strong></p>
               </div>
             </div>
           </div>
         </div>
+
+        <pre>{{ users | json }}</pre>
 
       </div>
     </main>
