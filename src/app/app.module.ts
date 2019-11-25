@@ -19,6 +19,9 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
 import { UsersService } from "./shared/services/users.service";
+import { HeaderComponent } from './components/header/header.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { MembersComponent } from './components/members/members.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { UsersService } from "./shared/services/users.service";
     SignUpComponent,
     DashboardComponent,
     ForgotPasswordComponent,
-    VerifyEmailComponent
+    VerifyEmailComponent,
+    HeaderComponent,
+    NavigationComponent,
+    MembersComponent
   ],
   imports: [
     BrowserModule,

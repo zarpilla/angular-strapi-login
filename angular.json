@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularfirebase-authentication": {
+    "angular-strapi-auth": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angularfirebase-authentication",
+            "outputPath": "dist/angular-strapi-auth",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angularfirebase-authentication:build"
+            "browserTarget": "angular-strapi-auth:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angularfirebase-authentication:build:production"
+              "browserTarget": "angular-strapi-auth:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularfirebase-authentication:build"
+            "browserTarget": "angular-strapi-auth:build"
           }
         },
         "test": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "angularfirebase-authentication-e2e": {
+    "angular-strapi-auth-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -112,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angularfirebase-authentication:serve"
+            "devServerTarget": "angular-strapi-auth:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angularfirebase-authentication:serve:production"
+              "devServerTarget": "angular-strapi-auth:serve:production"
             }
           }
         },
@@ -132,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "angularfirebase-authentication"
+  "defaultProject": "angular-strapi-auth"
 }

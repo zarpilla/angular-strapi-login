@@ -35,7 +35,7 @@ export class SignInComponent implements OnInit {
         .pipe(first())
         .subscribe(
             data => {
-              this.router.navigate(['dashboard']);
+              this.router.navigate(['members']);
             },
             error => {
               if (error && error.error && error.error.message && error.error.message.length > 0) {
